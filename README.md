@@ -1,36 +1,54 @@
-## Tip Calculator
+## Data Types
+
+# UPDATE
+We've moved away from repl.it for coding exercises.
+Check out the new exercises on Coding Rooms with automated submissions.
+
+Login to your Udemy course and head over to the link below to get the sign up link:
+
+[Click here](https://www.udemy.com/course/100-days-of-code/learn/lecture/17825914#questions)
 
 # Instructions
 
-If the bill was $150.00, split between 5 people, with 12% tip. 
+Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
 
-Each person should pay (150.00 / 5) * 1.12 = 33.6
-
-Format the result to 2 decimal places = 33.60
-
-Thus everyone's share of the total bill is $30.00 plus a $3.60 tip.
-
-Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
-
+**Warning.** Do not change the code on lines 1-3. Your program should work for different inputs. e.g. any two-digit number.
 
 # Example Input
 
 ```
-Welcome to the tip calculator!
-What was the total bill? $124.56
-How much tip would you like to give? 10, 12, or 15? 12
-How many people to split the bill? 7
+39
 ```
 
 # Example Output
 
+3 + 9 = 12
+
 ```
-Each person should pay: $19.93
+12
 ```
 
+e.g. When you hit **run**, this is what should happen:  
+
+![](https://cdn.fs.teachablecdn.com/iyJTPDDRRJCB1gmdVQMS)
 
 # Hint
 
-1. [How to round a number to 2 decimal places in Python](https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal)
-2. [How to limit a float to two decimal places in Python](https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python)
+1. Try to find out the data type of two_digit_number.
+2. Think about what you learnt about subscripting.
+3. Think about type conversion.
 
+# Test Your Code
+
+Before checking the solution, try copy-pasting your code into this repl: 
+
+[https://repl.it/@appbrewery/day-2-1-test-your-code](https://repl.it/@appbrewery/day-2-1-test-your-code)
+
+This repl includes my testing code that will check if your code meets this assignment's objectives. 
+
+
+
+
+# Solution
+
+[https://repl.it/@appbrewery/day-2-1-solution](https://repl.it/@appbrewery/day-2-1-solution)
